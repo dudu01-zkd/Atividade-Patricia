@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <img src="./src/images/logo-starbucks.png" alt="Logo Starbucks" class="logo">
+            <button class="btn btn-mobile"><i class="fa-solid fa-bars"></i></button>
+            <ul id="nav-links"> 
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trending">Em Alta</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#products">Novidades</a></li>
+            </ul>
+            <a href="#" class="btn btn-default">Contatar</a>
+        </nav>
+    </header>
+     
+    <!-- MAIN -->
+    <main id="container">
+        <!-- HOME -->
+        <section id="home">
+            <img src="./src/images/detail.png" alt="Starbucks drink" class="home-image">
+            <h1 class="home-title">Mais que café, uma <span>experiência.</span></h1>
+            <p class="home-description">Descubra cafés icônicos, sabores únicos e a energia perfeita para cada parte do seu dia.</p>
+            <div class="home-actions">
+                <a href="#" class="btn btn-default">Conhecer</a>
+                <a href="#" class="btn btn-outlined">Contatar</a>
+            </div>
+        </section>
+
+        <!-- TRENDING -->
+        <section id="trending">
+            <h2 class="title">Em alta</h2>
+            <div class="trending-cards">
+                <div class="trending-card">
+                    <img src="./src/images/trending/card1.png" alt="Frappuccino">
+                    <div class="trending-rate">5 <i class="fa-solid fa-star"></i></div>
+                    <p class="trending-card-description">Frappuccino <span>Avelã</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE NÓS (Nosso Propósito da foto) -->
+        <section id="about">
+            <div class="about-content">
+                <div class="about-info">
+                    <h3>Nosso <span>Propósito</span></h3>
+                    <p>
+                        Inspirar momentos de conexão e bem-estar por meio do café. Acreditamos que cada xícara pode aproximar pessoas, despertar ideias e transformar rotinas. <span>Nosso compromisso</span> é oferecer qualidade, sustentabilidade e experiências que tornem o seu dia mais leve e especial.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- NOVIDADES (Moccha da foto) -->
+        <section id="products">
+            <h2 class="title">Novidades</h2>
+            <div class="products-cards">
+                <div class="product-card">
+                    <img src="./src/images/products/1.png" alt="Moccha">
+                    <div class="product-content">
+                        <h3>Moccha <span>Chocolate</span></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
